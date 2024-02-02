@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Enrollment Form using JPDB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <form id="studentForm">
+    <div class="form-group">
+      <label for="rollNo">Roll No:</label>
+      <input type="text" class="form-control" id="rollNo" onchange="getStudent()">
+    </div>
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" class="form-control" id="fullName">
+    </div>
+    <div class="form-group">
+      <label for="class">Class:</label>
+      <input type="text" class="form-control" id="class">
+    </div>
+    <div class="form-group">
+      <label for="birthDate">Birth Date:</label>
+      <input type="text" class="form-control" id="birthDate">
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="text" class="form-control" id="address">
+    </div>
+    <div class="form-group">
+      <label for="enrollmentDate">Enrollment Date:</label>
+      <input type="text" class="form-control" id="enrollmentDate">
+    </div>
+    <button type="button" class="btn btn-lg btn-primary" id="save" onclick="saveData()">Save</button>
+    <button type="button" class="btn btn-lg btn-primary" id="change" onclick="changeData()">Change</button>
+    <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="resetForm()">Reset</button>
+  </form>
+</div>
