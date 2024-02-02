@@ -34,6 +34,7 @@ This micro project involves creating a data entry form for student enrollment, w
   - Self-indexing and self-archiving features reduce maintenance efforts.
 
 
+## Version History
 
 - **[Version 1.0.0]** - [02/02/2024]
   - Initial release with the basic functionality of the Student Enrollment Form.
